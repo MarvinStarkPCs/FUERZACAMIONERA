@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php --version)",
+      "Bash(composer --version)",
+      "Bash(npm --version)",
+      "Bash(laravel --version)",
+      "Bash(node.exe --version)",
+      "Bash(npm.cmd --version)",
+      "Bash(export PATH=\"/c/laragon/bin/nodejs/node-v22:$PATH\")",
+      "Bash(composer create-project:*)",
+      "Bash(awk '{print $NF}')"
+    ]
+  }
+}
